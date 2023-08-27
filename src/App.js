@@ -1,9 +1,7 @@
 import './App.css';
-import Comments from './components/Comment';
-
+import React from 'react';
+import Comments from './components/Comments';
 function App() {
-
-
   return (
     <div className="App">
      <Comments CurrentUserId="1"></Comments>
